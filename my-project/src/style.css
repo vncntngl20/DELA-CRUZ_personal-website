@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+
+.contact-button {
+  margin-left: 20px; /* Adjust as needed for more or less space */
+}
