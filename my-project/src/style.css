@@ -1,5 +1,31 @@
+ /* Custom pixel font style for headings */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 @import "tailwindcss";
 
+.text-brown-color {
+  color: #AE7C4C;
+}
+
+ .font-pixel {
+   font-family: 'Press Start 2P', cursive;
+ }
+ .font-poppins {
+   font-family: 'Poppins', sans-serif;
+ }
+
+ /* Scrollbar hidden for horizontal */
+ ::-webkit-scrollbar {
+   height: 8px;
+ }
+ ::-webkit-scrollbar-track {
+   background: transparent;
+ }
+ ::-webkit-scrollbar-thumb {
+   background-color: #AE7C4C; /* same as button color */
+   border-radius: 10px;
+ }
 
 .contact-button {
   margin-left: 20px; /* Adjust as needed for more or less space */

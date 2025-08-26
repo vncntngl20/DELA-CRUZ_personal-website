@@ -1,0 +1,28 @@
+personal portfolio that showcasing your skills and projects
+
+//navigation bar 
+//about me
+    add more something about yourself
+    you can include your spotify playlist, utilize spotify api to access your music
+
+//tech skills
+    add hover effects each
+    if possible, once you hover, you can add something like a paragraph on what knowledge you have in that certain skill?
+//creative skills [to add] 
+    //add ig art account
+    graphic designs
+    canva
+    logo designs
+    figma
+
+//featured projects
+    as much as possible it should be your personal projects in order for you to explore technologies and your analytical skills
+    add concise description of the project
+    add github link
+    add tech stacks used
+    screenshots if possible
+
+//certifications [to add]
+
+//get in touch
+//add your socials in the footer

@@ -6,41 +6,18 @@
   <title>Vincent Angelo Portfolio</title>
   <link rel="icon" type="image/png" href="public/valogo-2.svg">
   <link href="/src/style.css" rel="stylesheet">
-  <style>
-    /* Custom pixel font style for headings */
-    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@400;500;600&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-    .font-pixel {
-      font-family: 'Press Start 2P', cursive;
-    }
-    .font-poppins {
-      font-family: 'Poppins', sans-serif;
-    }
-  
-    /* Scrollbar hidden for horizontal */
-    ::-webkit-scrollbar {
-      height: 8px;
-    }
-    ::-webkit-scrollbar-track {
-      background: transparent;
-    }
-    ::-webkit-scrollbar-thumb {
-      background-color: #AE7C4C; /* same as button color */
-      border-radius: 10px;
-    }
-  </style>
 </head>
 <body class="bg-white text-black min-h-screen flex flex-col">
 
   <!-- Navbar -->
-  <nav class="flex items-center justify-between px-5 border-b border-gray-300 sticky top-0 bg-white z-40">
+  <nav class="flex items-center justify-between px-5 border-b border-gray-300 sticky top-0 bg-white z-40 shadow-xl">
     <div class="flex items-center space-x-2 cursor-pointer select-none">
       <img src="public/valogo-2.svg" alt="Logo Vincent Angelo" class="w-30 h-30">
     </div>
     <ul class="flex items-center space-x-8 text-gray-800 text-base font-medium ml-auto">
       <li><a href="#about" class="hover:text-[#AE7C4C] transition-colors duration-300 font-poppins">About</a></li>
-      <li><a href="#projects" class="hover:text-[#AE7C4C] transition-colors duration-300 font-poppins">Projects</a></li>
       <li><a href="#skills" class="hover:text-[#AE7C4C] transition-colors duration-300 font-poppins">Skills</a></li>
+      <li><a href="#projects" class="hover:text-[#AE7C4C] transition-colors duration-300 font-poppins">Projects</a></li>
     </ul>
     <a href="#contact" class="contact-button bg-[#AE7C4C] text-white px-3 py-2 rounded-md font-pixel hover:bg-[#7a5026] transition-colors duration-300 select-none">Contact Me</a>  </nav>
 
@@ -60,42 +37,44 @@
     </div>
     <div class="flex justify-end">
       <img src="public/pixel-me-group.svg" alt="Pixel Image" class="max-w-sm" />
-  </div>
-      
+  </div>  
   </header>
 
+<!-- Tech Skills Text -->
+<div class="max-w-7xl mx-auto px-8 mt-5 py-5 text-center">
+  <h2 class="font-pixel text-3xl font-extrabold tracking-wide select-text">Tech Skills</h2>
+</div>
   <!-- Tech Skills Section -->
-  <section id="skills" class="max-w-6xl mx-auto px-8 py-12">
-    <div class="mb-8 flex items-center space-x-4">
-      <h2 class="font-pixel text-3xl font-extrabold tracking-wide select-text">Tech Skills</h2>
-    </div>
+<section id="skills" class="max-w-6xl mx-auto px-8 py-12">
+  <div class="flex flex-wrap justify-between items-center">
+    <!-- Logos Container -->
     <div class="flex flex-wrap justify-center gap-8">
-      <!-- Each icon with alt text, black & white or monochrome for uniform look -->
-      <img src="https://placehold.co/60x60/000000/FFFFFF/png?text=HTML5" alt="Black and white HTML5 logo icon" class="h-12 w-12 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/60x60/000000/FFFFFF/png?text=TailwindCSS" alt="Black and white Tailwind CSS logo icon" class="h-12 w-12 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/60x60/000000/FFFFFF/png?text=CSS3" alt="Black and white CSS3 logo icon" class="h-12 w-12 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/70x60/000000/FFFFFF/png?text=PHP" alt="Black and white PHP logo icon" class="h-12 w-16 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/70x60/000000/FFFFFF/png?text=JS" alt="Black and white JavaScript logo icon" class="h-12 w-16 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/60x60/000000/FFFFFF/png?text=Bootstrap" alt="Black and white Bootstrap logo icon" class="h-12 w-12 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/60x60/000000/FFFFFF/png?text=React" alt="Black and white ReactJS logo icon" class="h-12 w-12 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/60x60/000000/FFFFFF/png?text=Java" alt="Black and white Java logo icon" class="h-12 w-12 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/70x60/000000/FFFFFF/png?text=Python" alt="Black and white Python logo icon" class="h-12 w-16 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/70x60/000000/FFFFFF/png?text=Go" alt="Black and white Go programming language logo icon" class="h-12 w-16 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/60x60/000000/FFFFFF/png?text=Kotlin" alt="Black and white Kotlin logo icon" class="h-12 w-12 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/70x60/000000/FFFFFF/png?text=MySQL" alt="Black and white MySQL dolphin logo icon" class="h-12 w-16 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/60x60/000000/FFFFFF/png?text=Docker" alt="Black and white Docker container whale logo icon" class="h-12 w-12 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/60x60/000000/FFFFFF/png?text=Git" alt="Black and white Git branch logo icon" class="h-12 w-12 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/70x60/000000/FFFFFF/png?text=VSCode" alt="Black and white Visual Studio Code logo icon" class="h-12 w-16 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/60x60/000000/FFFFFF/png?text=Figma" alt="Black and white Figma logo icon" class="h-12 w-12 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/60x60/000000/FFFFFF/png?text=Photoshop" alt="Black and white Adobe Photoshop logo icon" class="h-12 w-12 object-contain" onerror="this.style.display='none'"/>
-      <img src="https://placehold.co/60x60/000000/FFFFFF/png?text=Code" alt="Black and white generic coding icon with curly braces" class="h-12 w-12 object-contain" onerror="this.style.display='none'"/>
+      <img src="public/html5.svg" alt="Black and white HTML5 logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/tailwindcss.svg" alt="Black and white Tailwind CSS logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/css3.svg" alt="Black and white CSS3 logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/php.svg" alt="Black and white PHP logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/js.svg" alt="Black and white JavaScript logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/bootstrap5.svg" alt="Black and white Bootstrap logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/react.svg" alt="Black and white ReactJS logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/java.svg" alt="Black and white Java logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/python.svg" alt="Black and white Python logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/Go.svg" alt="Black and white Go programming language logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/mysql.svg" alt="Black and white MySQL dolphin logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/docker.svg" alt="Black and white Docker container whale logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/Git.svg" alt="Black and white Git branch logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/colab.svg" alt="Black and white colab branch logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/figma.svg" alt="Black and white Figma logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/ps.svg" alt="Black and white Adobe Photoshop logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
+      <img src="public/canva.svg" alt="Black and white Canva logo icon" class="h-20 w-20 object-contain transition duration-300 ease-in-out hover:scale-150" onerror="this.style.display='none'"/>
     </div>
-  </section>
+  
+</section>
+
 
   <!-- Featured Projects Section -->
   <section id="projects" class="max-w-7xl mx-auto px-8 py-14">
-    <h2 class="font-pixel text-3xl font-extrabold tracking-wide mb-3 select-text">Featured Projects</h2>
-    <p class="text-gray-800 mb-8 max-w-lg select-text">&lt; A selection of projects showcasing my technical skills and problem-solving approach. /&gt;</p>
+    <h2 class="font-pixel text-3xl font-extrabold tracking-wide mb-3 text-center">Featured Projects</h2>
+    <p class="max-w-xl mx-auto mb-8 text-black-800 text-center"> <span class="font-pixel">&lt;</span> A selection of projects showcasing my technical skills and problem-solving approach. <span class="font-pixel">/&gt;</span></p>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
       <!-- Each project card with an image screenshot placeholder -->
       <div class="rounded-xl overflow-hidden shadow-lg border border-gray-300 bg-black">
@@ -148,7 +127,7 @@
   <!-- Contact Section (anchor target only, button links here) -->
   <section id="contact" class="max-w-7xl mx-auto px-8 py-16 text-center">
     <h3 class="font-pixel text-2xl font-extrabold mb-4 select-text">Get In Touch</h3>
-    <p class="max-w-xl mx-auto mb-8 text-gray-800 select-text">I’m interested in project opportunities, collaborations, or just a friendly chat. Feel free to reach out!</p>
+    <p class="max-w-xl mx-auto mb-8 text-gray-800 select-text"> <span class="font-pixel">&lt;</span> I’m interested in project opportunities, collaborations, or just a friendly chat. Feel free to reach out! <span class="font-pixel">/&gt;</span></p>
     <a href="mailto:vincentangelo.martindelacruz@gmail.com" 
        class="font-pixel inline-block bg-[#A36B40] text-white font-semibold rounded-md px-8 py-3 hover:bg-[#7a5026] transition-colors duration-300 select-none"
        >Email Me</a>
