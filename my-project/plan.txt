@@ -2,11 +2,11 @@ personal portfolio that showcasing your skills and projects
 
 //navigation bar 
 //about me
-    add more something about yourself
+    DONE add more something about yourself
     you can include your spotify playlist, utilize spotify api to access your music
 
 //tech skills
-    add hover effects each
+    DONE add hover effects each
     if possible, once you hover, you can add something like a paragraph on what knowledge you have in that certain skill?
 //creative skills [to add] 
     //add ig art account

@@ -72,3 +72,14 @@
   align-items: center;
   transform: rotateY(180deg);
 }
+
+
+@keyframes text-gradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.animate-text {
+  background-size: 200% auto;
+  animation: text-gradient 5s linear infinite;
+}
