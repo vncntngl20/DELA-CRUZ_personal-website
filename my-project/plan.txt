@@ -26,3 +26,6 @@ personal portfolio that showcasing your skills and projects
 
 //get in touch
 //add your socials in the footer
+
+//after
+//YOU CAN ADD PERSONALIZED CHATBOT SO CAN PEOPLE WHO VISIT YOUR PORTFOLIO CAN INTERACT
